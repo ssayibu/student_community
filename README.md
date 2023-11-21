@@ -1,17 +1,17 @@
 # CLEANING AND FORMATTING A USB DRIVE WITH COMMAND PROMPT 
 
 ## UNDERSTANDING THE KEY WORDS
-```yaml
-FS: File System, also known as filesystem or fs, is a method and data structure that the operating system uses to control how data is stored and retrieved. By separating the data into pieces and giving each a name, the data is easily isolated and identified. Taking its name from the way a paper-based data management system is named, each group of data is called a 'file'. The structure and logic rules used to name the groups of data and their names is called a 'file system'.
-```
+
+    FS: File System, also known as filesystem or fs, is a method and data structure that the operating  system uses to control how data is stored and retrieved. By separating the data into pieces and giving   each a name, the data is easily isolated and identified. Taking its name from the way a paper-based   data management system is named, each group of data is called a 'file'. The structure and logic rules     used to name the groups of data and their names is called a 'file system'.
+
 ## Types of FS
-```yaml
-NTFS: NTFS file system, known as New Technology File System (NTFS), is a proprietary journaling file system developed by Microsoft. Starting with Windows NT 3.1, it is the default file system of the Windows NT family. It superseded File Allocation Table (FAT) as the preferred filesystem on Windows and is supported in Linux and BSD as well.
 
-FAT32: is a file system that was first introduced with Windows 95. It is an older file system that's not as efficient as NTFS. 
+    NTFS: NTFS file system, known as New Technology File System (NTFS), is a proprietary journaling file    system developed by Microsoft. Starting with Windows NT 3.1, it is the default file system of the  Windows NT family. It superseded File Allocation Table (FAT) as the preferred filesystem on Windows and  is supported in Linux and BSD as well.
 
-exFAT: Extended File Allocation Table, has large compatibilities and limits on file and partition sizes. It was introduced with Windows XP and Vista operating system. It Works for all versions of Windows and Mac. It can also work with Linux if you have downloaded additional software on your PC. It is a modern replacement for FAT32.
-```
+    FAT32: is a file system that was first introduced with Windows 95. It is an older file system that's    not as efficient as NTFS. 
+
+    exFAT: Extended File Allocation Table, has large compatibilities and limits on file and partition   sizes. It was introduced with Windows XP and Vista operating system. It Works for all versions of     Windows and Mac. It can also work with Linux if you have downloaded additional software on your PC. It  is a modern replacement for FAT32.
+
 
 This is a guide on how to clean and format a USB Drive using the command line interface (Command Prompt)
 
@@ -122,5 +122,9 @@ detail disk
 ```
 
 ![Alt text](images/format.png)
+
+type *exit* to exit from the diskpart 
+
+type *exit* to exit from the command prompt
 
 ### THANK YOU FOR TAKING SOME TIME TO READ THIS WALK THROUGH, I HOPE THIS HELPS
